@@ -3,11 +3,24 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
+import "../components/errors.scss"
+
 const NotFoundPage = () => (
-  <Layout>
+  <Layout
+      showHeader={true}
+      showFooter={true}
+  >
     <SEO title="404: Not found" />
-    <h1>NOT FOUND</h1>
-    <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
+    <div className='error-content'>
+        <h1>NOT FOUND</h1>
+        <span
+            role="img"
+            className='font32'
+            aria-label='cry emoji'
+        >
+            404 😭
+        </span>
+    </div>
   </Layout>
 )
 
