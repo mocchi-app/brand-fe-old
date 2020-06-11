@@ -56,3 +56,15 @@ header {
     }
   }
 }
+
+@media (max-width: 768px) {
+  header{
+    padding: 25px;
+
+    .login-part{
+      .sign-in {
+        display: none;
+      }
+    }
+  }
+}

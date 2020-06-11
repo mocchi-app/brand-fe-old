@@ -18,7 +18,7 @@ const IndexPage = () => (
         <section className='container-bg-img-right'>
             <div className='subsection-link'>
                 <div className='content'>
-                    <h2 className='font48'>
+                    <h2 className='font48 font32-xs'>
                         Shop with friends, earn money.
                     </h2>
                     <span className='font16'>
@@ -41,16 +41,19 @@ const IndexPage = () => (
             </div>
         </section>
         <section className='container-title'>
-            <h2 className='font48'>
+            <h2 className='font48 font32-xs'>
                 How it works
             </h2>
         </section>
         <section className='container'>
             <div className='content-wrapper first-step'>
                 <div className='content-text'>
-                    <h3 className='font48'>
+                    <span className='mobile-step'>
+                        1
+                    </span>
+                    <h2 className='font48 font16-xs'>
                         Add to Chrome.
-                    </h3>
+                    </h2>
                     <span className='font16'>
                         Add to chrome and choose your contacts, Mocchi automates the rest.
                     </span>
@@ -73,7 +76,10 @@ const IndexPage = () => (
             </div>
             <div className='subsection-link'>
                 <div className='content'>
-                    <h2 className='font48'>
+                    <span className='mobile-step'>
+                        2
+                    </span>
+                    <h2 className='font48 font16-xs'>
                         Shop as normal.
                     </h2>
                     <span className='font16'>
@@ -88,9 +94,12 @@ const IndexPage = () => (
         <section className='container'>
             <div className='content-wrapper first-step'>
                 <div className='content-text'>
-                    <h3 className='font48'>
+                    <span className='mobile-step'>
+                        3
+                    </span>
+                    <h2 className='font48 font16-xs'>
                         Earn rewards.
-                    </h3>
+                    </h2>
                     <span className='font16'>
                         Automatically share and use referrals with friends.
                     </span>

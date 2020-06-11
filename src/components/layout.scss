@@ -298,3 +298,15 @@ a {
   background: #EFFFF9;
   color: #42CB83;
 }
+
+@media (max-width: 768px) {
+  .font32-xs {
+    font-size: 32px;
+    line-height: 44px;
+  }
+
+  .font16-xs {
+    font-size: 16px;
+    line-height: 22px;
+  }
+}
